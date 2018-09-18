@@ -1,0 +1,6 @@
+info:
+  component: Spring cloud zuul
+  app:
+    name: Spring cloud zuul Application
+    description: This is spring boot application
+    version: 1.0.0

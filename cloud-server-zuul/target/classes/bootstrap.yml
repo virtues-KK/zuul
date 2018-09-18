@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    config:
+      uri: http://39.104.165.143:30001
+      name: eureka
+      profile: remote

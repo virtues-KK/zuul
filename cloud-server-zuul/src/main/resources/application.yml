@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: cloud-server-zuul
+  profiles:
+    active: info,zuul
+server:
+  port: 8763
+
+jwt:
+  header: Authorization

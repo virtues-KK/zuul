@@ -1,0 +1,12 @@
+feign:
+  hystrix:
+    enabled: true
+
+zuul:
+  ignored-services: "*"
+  sensitiveHeaders: Cookie,Set-Cookie
+  routes:
+    customers: /customers/**
+    login:
+      path: /login/**
+      serviceId: CLOUD-CLIENT-LOGIN
